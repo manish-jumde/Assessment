@@ -1,0 +1,91 @@
+@charset "ISO-8859-1";
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body 
+{
+	font-size: 14px;
+	background: #f2f2f2;
+}
+.container
+{
+	background: white;
+	width:500px;
+	padding: 25px;
+	margin:50px auto 0;
+	border-top: 5px solid yellow;
+	box-shadow: 0 0 7px 5px rgba(0,0,0,0.5);
+}
+.container h2
+{
+	font-size: 24px;
+	line-height: 24px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+.input-name
+{
+	width: 90%;
+	position: relative;
+	margin: 20px auto;
+}
+
+.lock
+{
+	padding:7px 11px; 
+}
+.lockk
+{
+	padding:7px 9px; 
+	
+}
+.email
+{
+	padding:8px ; 
+}
+.pass
+{
+	padding:8px 11px;
+}
+.name
+{
+	width: 48.9%;
+	padding: 8px 0 8px 40px;
+}
+.input-name span
+{
+	margin-left: 5px;
+}
+.email-name
+{
+	width: 100%;
+	padding: 8px 0 8px 40px;
+}
+.input-name i
+{
+	position: absolute;
+	font-size: 18px;
+	border-right: 1px solid #cccccc;
+}
+.country
+{
+	display: inline-block;
+	height:35px;
+	width: 100%;
+	padding: 0 15px;
+	cursor: pointer;
+}
+.check-btn
+{
+	margin-right: 30px;
+	position: relative;
+}
+.button
+{
+	width: 100%;
+	padding: 8px 0 8px 40px;
+	background-color: yellow;
+}

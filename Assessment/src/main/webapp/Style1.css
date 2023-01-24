@@ -1,0 +1,57 @@
+@charset "ISO-8859-1";
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body 
+{
+	font-size: 14px;
+	background: #ff8080;
+}
+.container
+{
+	background: white;
+	width:500px;
+	padding: 25px;
+	margin:50px auto 0;
+
+	box-shadow: 0 0 7px 5px rgba(0,0,0,0.5);
+}
+.container h2
+{
+	font-size: 24px;
+	line-height: 24px;
+	padding-bottom: 30px;
+	text-align: left;
+}
+.input-name
+{
+	width: 100%;
+	position: relative;
+	margin: 20px auto;
+}
+.email-name
+{
+	width: 100%;
+	padding: 8px 0 8px 40px;
+}
+.element
+{
+	text-align: center;
+}
+.button1
+{
+	display: inline-block;
+	padding: 8px 16px;
+	width: 49.6%;
+	background-color: #e7e7e7; 
+}
+.button
+{
+	display: inline-block;
+	padding: 8px 16px;
+	width: 49.6%;
+	background-color: #555555; 
+}
